@@ -490,7 +490,7 @@ const handleFakeSubmit = (e) => {
               <div className="relative aspect-video bg-black rounded-[40px] border border-white/10 overflow-hidden shadow-2xl">
                 <iframe 
                   className="w-full h-full"
-                  src="https://www.youtube.com/watch?v=<iframe width="560" height="315" src="https://www.youtube.com/embed/k5j5WD8OiW4?si=5ZSf501GqWYK3dQB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" 
+                  src="https://www.youtube.com/embed/k5j5WD8OiW4?si=tTCU4S9__INwDRUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   title="Pronto24h em Ação"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
