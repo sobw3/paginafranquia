@@ -465,27 +465,8 @@ const handleFakeSubmit = (e) => {
         </div>
       </section>
 
-      {/* --- SEÇÃO VÍDEO: OPERAÇÃO EM TEMPO REAL --- */}
-      <section className="py-24 px-6 bg-slate-900/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <div className="inline-flex items-center gap-2 bg-orange-500/10 text-orange-500 px-4 py-2 rounded-full mb-6 font-black text-[10px] uppercase tracking-widest border border-orange-500/20">
-                <Play size={12} fill="currentColor" /> Operação em Tempo Real
-              </div>
-              <h2 className="text-5xl md:text-7xl font-black font-heading italic uppercase leading-none mb-8 tracking-tighter">
-                TECNOLOGIA <br/> <span className="text-orange-500 text-glow">PRÁTICA.</span>
-              </h2>
-              <p className="text-slate-400 text-lg mb-8 leading-relaxed font-medium">
-                Assista ao Pronto24h em ação. Veja como a nossa <span className="text-white font-bold underline decoration-orange-500">trava exclusiva</span> reage instantaneamente ao comando do cliente. Segurança total com Split de Pagamentos automático.
-              </p>
-              <div className="glass p-6 rounded-3xl border-l-4 border-l-orange-500">
-                 <p className="text-orange-500 font-black text-3xl mb-1 italic">12s</p>
-                 <p className="text-xs font-bold uppercase text-slate-400 tracking-tighter leading-tight">Tempo de resposta recorde entre pagamento e liberação física.</p>
-              </div>
-            </div>
-            
-            <section className="py-24 px-6 bg-black relative overflow-hidden">
+     {/* --- SEÇÃO DO VÍDEO: PRONTO24H EM AÇÃO --- */}
+      <section className="py-24 px-6 bg-black relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto">
             <div className="relative group">
@@ -508,6 +489,7 @@ const handleFakeSubmit = (e) => {
           </div>
         </div>
       </section>
+
       {/* --- COMPATIBILIDADE --- */}
       <section id="equipamentos" className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
