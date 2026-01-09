@@ -485,15 +485,22 @@ const handleFakeSubmit = (e) => {
               </div>
             </div>
             
+            <section className="py-24 px-6 bg-black relative overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="relative group">
+              {/* Efeito de Brilho Neon ao Fundo */}
               <div className="absolute -inset-4 bg-orange-500/20 rounded-[40px] blur-3xl opacity-50 group-hover:opacity-100 transition duration-1000"></div>
+              
+              {/* Container do Vídeo com Moldura */}
               <div className="relative aspect-video bg-black rounded-[40px] border border-white/10 overflow-hidden shadow-2xl">
                 <iframe 
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/k5j5WD8OiW4?si=tTCU4S9__INwDRUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  src="https://www.youtube.com/embed/k5j5WD8OiW4?si=tTCU4S9__INwDRUQ" 
                   title="Pronto24h em Ação"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerPolicy="strict-origin-when-cross-origin" 
                   allowFullScreen
                 ></iframe>
               </div>
@@ -501,7 +508,6 @@ const handleFakeSubmit = (e) => {
           </div>
         </div>
       </section>
-
       {/* --- COMPATIBILIDADE --- */}
       <section id="equipamentos" className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
